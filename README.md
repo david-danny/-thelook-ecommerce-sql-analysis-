@@ -158,11 +158,7 @@ thelook-ecommerce-sql-analysis/
 │   ├── category-return-analysis.png
 │   └── customer-health-by-country.png
 ├── data/
-│   └── README.md
-└── docs/
-    ├── analysis-notes.md
-    ├── cv-linkedin-copy.md
-    └── upload-guide-id.md
+    └── README.md
 ```
 
 ## Credits
