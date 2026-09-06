@@ -20,7 +20,7 @@ TheLook is an online fashion retailer facing slower growth and rising returns. T
 
 ## Tools
 
-- **Google BigQuery
+- **Google BigQuery** for SQL Query
 - **Looker Studio** for result visualization
 
 ## Analysis
@@ -33,6 +33,48 @@ TheLook is an online fashion retailer facing slower growth and rising returns. T
 | 4 | How do first and repeat purchases compare? | [View Query](sql/04_first_vs_repeat_purchases.sql) |
 | 5 | Which categories had the highest return leakage? | [View Query](sql/05_category_return_analysis.sql) |
 | 6 | What is the customer health status in each market? | [View Query](sql/06_customer_health_by_market.sql) |
+
+## Visualizations
+
+The SQL query results were visualized using Looker Studio to make the findings easier to understand.
+
+### 1. Monthly Sales Trend
+
+![Monthly Sales Trend](assets/monthly-sales-trend.png)
+
+Monthly sales increased over time, while the growth pattern was generally aligned with the increase in orders and unique buyers.
+
+### 2. Top Categories in 2024
+
+![Top Categories in 2024](assets/top-categories-2024.png)
+
+Outerwear & Coats generated the highest sales in 2024, followed by Jeans, Sweaters, Swim, and Fashion Hoodies & Sweatshirts.
+
+### 3. Product Pricing Benchmark
+
+![Product Pricing Benchmark](assets/product-pricing-benchmark.png)
+
+Several products were priced significantly above the average retail price of other products in the same category.
+
+### 4. First vs. Repeat Purchases
+
+![First vs Repeat Purchases](assets/first-vs-repeat-purchases.png)
+
+First purchases contributed 63.8% of total orders, while repeat purchases accounted for 36.2%.
+
+### 5. Category Return Analysis
+
+![Category Return Analysis](assets/category-return-analysis.png)
+
+Pants had the highest returned-sales rate at 11.12%, while Outerwear & Coats recorded the highest returned sales amount.
+
+### 6. Customer Health by Country
+
+![Customer Health by Country](assets/customer-health-by-country.png)
+
+Most customers in the larger country segments were classified as inactive, indicating an opportunity for customer reactivation campaigns.
+
+> Note: The visualizations represent the dataset available when the analysis was completed. Results may change because the BigQuery public dataset is updated over time.
 
 ## Key Findings
 
